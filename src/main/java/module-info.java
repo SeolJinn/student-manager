@@ -3,6 +3,6 @@ module org.example.studentmanager {
     requires javafx.fxml;
 
 
-    opens org.example.studentmanager to javafx.fxml;
-    exports org.example.studentmanager;
+    opens org.example.manager to javafx.fxml;
+    exports org.example.manager;
 }
